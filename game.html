@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Homework App For Class 92</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="game.css">
+    </head>
+    <body id="bodyTag">
+        <h4 id="player1Username"></h4>
+        <span id="player1Score"></span>
+        <h4 id="player2Username"></h4>
+        <span id="player2Score"></span>
+        <div class="container">
+            <center>
+                <h2 id="mathQuiz">Math Quiz!!</h2>
+                <br>
+                <h4 id="questionTurn"></h4>
+                <br>
+                <label id="firstNumber">First Number: </label>
+                <input id="firstNumberInput">
+                <br>
+                <label id="secondNumber">Second Number: </label>
+                <input id="secondNumberInput">
+                <br>
+                <label id="mathematicalOperation">Mathematical Operation (- for subtraction, + for addition, x for multiplication, and / for division): </label>
+                <input id="operationInput">
+                <br>
+                <button id="sendButton" class="btn btn-info" onclick="send()">Send</button>
+                <br>
+                <br>
+                <h4 id="answerTurn"></h4>
+                <br>
+                <div id="output">
+                    <label id="question"></label>
+                    <br>
+                    <label id="answerLabel">Answer: </label>
+                    <input id="answer" placeholder="Enter Answer">
+                    <br>
+                    <button class="btn btn-info" id="checkAnswer" onclick="checkAnswer()">Check</button>
+                </div>
+            </center>
+        </div>
+    </body>
+    <script src="game.js"></script>
+</html>

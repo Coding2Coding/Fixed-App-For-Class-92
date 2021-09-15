@@ -1,0 +1,62 @@
+#bodyTag {
+    background: linear-gradient(rgb(204, 232, 255) 0%, rgb(232, 214, 255) 100%);
+}
+
+#mathQuiz {
+    color: deepskyblue;
+    font-family: calibri;
+    font-size: 70px;
+}
+
+#firstNumber, #secondNumber, #mathematicalOperation {
+    color: deepskyblue;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+#checkAnswer, #sendButton {
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    font-family: calibri;
+    font-size: 20px;
+    text-align: center;
+}
+
+#answer, #firstNumberInput, #secondNumberInput, #operationInput {
+    border-radius: 4px;
+    color: deepskyblue;
+    font-size: 14px;
+}
+
+#output {
+    background:rgb(232, 214, 255);
+    border-radius: 4px;
+    border-top: 14px solid #ffffff;
+    padding: 14px;
+    float: none;
+    text-align: left;
+}
+
+#questionTurn, #answerTurn {
+    font-family: calibri;
+    color: lightcoral;
+    font-size: 20px;
+}
+
+#player1Username, #player1Score, #player2Username, #player2Score {
+    font-family: calibri;
+    color: lightcoral;
+    font-size: 20px;
+    width: 700px;
+}
+
+#answer {
+    font-family: calibri;
+}
+
+#answerLabel, #question {
+    font-family: calibri;
+    color: deepskyblue;
+    font-size: 20px;
+}
